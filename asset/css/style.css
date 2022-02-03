@@ -87,3 +87,15 @@
 .left{
     margin-left: 25%; 
 }
+.text2{
+    color:white;
+    width: 70px;
+    text-align: center;
+    font-size: 0.7rem;
+    height: 15px;
+    line-height: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 10;
+}
