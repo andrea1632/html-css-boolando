@@ -23,7 +23,7 @@
 /* END OF UTIL */
 
 .raw1{
-    width: 944px;
+    width: 974px;
     margin: auto;
     margin-top: 20px;
 }
@@ -84,6 +84,7 @@
 .block{
     width: 312px;
     display: inline-block;
+    margin-right: 10px;
 }
 
 .text2{
