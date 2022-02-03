@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 /* END OF RESET */
 
@@ -22,9 +23,9 @@
 /* END OF UTIL */
 
 .raw1{
+    width: 944px;
     margin: auto;
     margin-top: 20px;
-
 }
 .content{
     height: 450px;
@@ -84,9 +85,7 @@
     width: 312px;
     display: inline-block;
 }
-.left{
-    margin-left: 25%; 
-}
+
 .text2{
     color:white;
     width: 70px;
@@ -98,4 +97,8 @@
     bottom: 20px;
     left: 0;
     z-index: 10;
+}
+.raw2{
+    width: 994px;
+    margin: auto;
 }
