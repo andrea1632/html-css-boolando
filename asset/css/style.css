@@ -16,18 +16,21 @@
 .bg-white{
     background-color: white;
 }
-/* END OF UTIL */
-.main-container{
-    width: 80%;
-    margin: auto;
+.red-text{
+    color: red;
 }
+/* END OF UTIL */
+
 .raw1{
+    margin: auto;
     margin-top: 20px;
+
 }
 .content{
     height: 450px;
     position: relative;
     width: 312px;
+    cursor: pointer;
 }
 .photo{
     height: 100%;
@@ -73,4 +76,14 @@
 }
 .content:hover .second-photo{
     z-index: 7;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.block{
+    width: 312px;
+    display: inline-block;
+}
+.left{
+    margin-left: 25%; 
 }
