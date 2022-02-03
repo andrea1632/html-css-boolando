@@ -1,0 +1,76 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END OF RESET */
+
+/* UTIL */
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-white{
+    background-color: white;
+}
+/* END OF UTIL */
+.main-container{
+    width: 80%;
+    margin: auto;
+}
+.raw1{
+    margin-top: 20px;
+}
+.content{
+    height: 450px;
+    position: relative;
+    width: 312px;
+}
+.photo{
+    height: 100%;
+}
+.discount{
+    width: 35px;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    height: 15px;
+    line-height: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    z-index: 10;
+}
+.text{
+    color:white;
+    width: 70px;
+    text-align: center;
+    font-size: 0.7rem;
+    height: 15px;
+    line-height: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 39px;
+    z-index: 10;
+}
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 5px;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+.second-photo{
+    position: absolute;
+}
+.first-photo{
+    position: absolute;
+    z-index: 6;
+}
+.content:hover .second-photo{
+    z-index: 7;
+}
